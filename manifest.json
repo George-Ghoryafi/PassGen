@@ -1,0 +1,26 @@
+{
+    "name": "Password Generator", 
+    "description": "Generates a password of requested length",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    }, 
+    "permissions": ["storage"], 
+    "action": {
+        "default_popup": "user.html"
+    }, 
+    "default_icon": {
+        "16": "/images/key.png",
+        "32": "/images/key.png",
+        "48": "/images/key.png",
+        "128":"/images/key.png"
+      }, 
+      "icons": {
+        "16": "/images/key16.png",
+        "32": "/images/key16.png",
+        "48": "/images/key16.png",
+        "128":"/images/key16.png"
+      }
+
+}

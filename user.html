@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <input type="range" min="1" max="30" value="15" class="slider" id="myRange">
+    <p>Password Length: <span id="sliderVal"></span></p>
+    
+    <p id="output"></p>
+    <button class="generate" id="generate">Generate a Password Now!</button>
+
+    
+    
+    <p>Choose one of the following criteria:</p>    
+    <form>
+      <input type="radio" id="lowercase" name="fav_language" value="OnlyLowerCase">
+      <label for="OnlyLowerCase">Only Lower Case</label><br>
+      <input type="radio" id="nosymbols" name="fav_language" value="NoSymbols">
+      <label for="NoSymbols">All Letters, No Symbols</label><br>
+      <input type="radio" id="allchars" name="fav_language" value="AllChars">
+      <label for="AllChars">All Characters</label>
+      <br></br>
+      
+      <button id="resetRadio">Reset</button>
+    </form> 
+
+
+
+
+
+
+
+
+    
+    <script src="slider.js"></script>
+    <script src="logic.js"></script>
+  </body>
+</html>
